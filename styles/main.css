@@ -1,0 +1,15 @@
+#projects {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+                180deg,
+                var(--gray-500) 0%,
+                var(--gray-400) 100%
+            );
+}
+#services {
+    width: 100%;
+    height: 480px;
+    background-color: var(--gray-600);
+    background-size: cover;
+}
