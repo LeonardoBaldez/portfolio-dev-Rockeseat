@@ -24,5 +24,11 @@
     --subtitle: 400 20px/120% "Inconsolata", monospace;
 
     --text-md: 400 16px/140% "Maven Pro", sans-serif;
-    --text-md: 400 14px/140% "Maven Pro", sans-serif;
+    --text-sm: 400 14px/140% "Maven Pro", sans-serif;
+}
+h1 {
+    font: var(--title-lg);
+}
+h2 {
+    font: var(--subtitle);
 }
