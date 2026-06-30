@@ -32,3 +32,9 @@ h1 {
 h2 {
     font: var(--subtitle);
 }
+h3 {
+    font: var(--title-md);
+}
+h4 {
+    font: var(--title-sm);
+}
