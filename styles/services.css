@@ -1,0 +1,46 @@
+#services header {
+    width: 355px;
+    height: 61px;
+    text-align: center;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 56px;
+}
+.container-services {
+    width: 888px;
+    height: 155px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 24px;
+}
+.card-service {
+    width: 280px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    border: solid 2px var(--gray-500);
+}
+.card-service img {
+    width: 48px;
+    height: 48px;
+}
+
+.container-texts-service {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.container-texts-service p {
+    font: var(--text-sm);
+    color: var(--gray-200);
+}
+.container-texts-service h4 {
+    color: var(--gray-100);
+}
